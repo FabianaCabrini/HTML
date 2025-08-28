@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MusicCulture</title>
+
+    <style>
+        *{
+             box-sizing: border-box;
+        }
+        
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        nav ul{
+            list-style-type: none;
+            background-color: palevioletred;
+            overflow: hidden; /*faz com que os elementos da lista voltem para la lista*/
+            margin: 0;
+            padding: 0;
+            
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none; /*none serve para retirar algima configuração padrão, nesse caso ele esta tirando a linha que sublinha o texto*/
+            padding: 16px;
+            display: block; /*Considera a altura e largura do elemento*/
+        }
+
+        nav li{
+            float: left; /*Deixar os elementos voando a esquerda*/
+        }
+
+        nav a:hover { /*O hover serve para algo mudar apenas quando o mouse estiver em cima dele*/
+            background-color: white;
+            color:palevioletred
+
+        }
+        article{
+            padding: 10px;
+        }
+
+        .row{
+            padding: 0 20px; /*desgrudar o conteudo da borda do site*/
+            display: table;
+        }
+        section{
+            float: left;
+            width: 75%;
+        }
+
+        aside{
+            float: left;
+            width: 25%;
+            padding-left: 20px;
+           
+        }
+
+        .card{
+            background-color: white;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+         body{
+            background: white;
+            margin: 0;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        .btn{
+            padding: 14px;
+            font-size: 10px;
+            color: purple;
+            background: white;
+            border-radius: 12x;
+            border: 2px solid purple;
+            cursor: pointer;
+            transition: 
+                background-color .2s ease,
+                color .2s ease,
+                border-radius .2s ease;
+        }
+
+        .btn:hover{
+            background: purple;
+            color: white;
+            border-radius: 20px;
+        }
+
+        .btn{
+            padding: 14px;
+            font-size: 10px;
+            color: purple;
+            background: white;
+            border-radius: 12x;
+            border: 2px solid purple;
+            cursor: pointer;
+            transition: 
+                background-color .2s ease,
+                color .2s ease,
+                border-radius .2s ease;
+        }
+
+        .btn:hover{
+            background: purple;
+            color: white;
+            border-radius: 20px;
+        }
+        body{
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        main{
+            flex: 1;
+        }
+
+        footer{
+            background-color: palevioletred;
+            color: white;
+            text-align: center;
+            padding: 9px;
+            font-size: 16px;
+            width: 100%;
+        }
+
+        header img{
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        a{
+            color: palevioletred;
+            font-weight: bold;
+        }
+      
+
+    </style>
+</head>
+<body>
+   
+    <header><img src="c:\Users\fabia\Downloads\Black Retrofuturism Event Music Concert Festival Marketing Banner.png" alt="Cabeçalho"></header>  
+
+    <nav>
+        <ul>
+            <li> <a href="file:///C:/Users/fabia/Documents/Senai/HTML/Atividade_casa/produtos.html">Produtos</a> </li>
+            <li><a href="file:///C:/Users/fabia/Documents/Senai/HTML/Atividade_casa/contato.html">Contato</a></li>
+            <li><a href="file:///C:/Users/fabia/Documents/Senai/HTML/Atividade_casa/envio.html">Entregas</a></li>
+        </ul>
+    </nav>
+    <div class="row">
+        <section>
+            <br>
+            <H2>Destaques</H2>
+            <article class="card">
+                    <img src="c:\Users\fabia\Downloads\Post para Instagram Feed Single Novo Artista Musical Streaming.png" alt="Duquesa" width="300" height="300">
+
+                    
+            </article>
+        
+            <article class="card">
+                <img src="c:\Users\fabia\Downloads\Post para Instagram Feed Single Novo Artista Musical Streaming (1).png" alt="Ebony" width="300" height="300">
+            </article>
+        </section>
+
+        </div>
+    <h2> Boas vindas, internauta !</h2>
+    
+    <p> Seja bem vindo ao Music Culture, um site feito pra voce ouvir suas musicas online, saber um pouco sobre seu artista favorito e compartilhar seus gostos e comentários com aqueles que amam o mesmo que você, a grandiosa música 😊 </p>
+    
+    <h3> Vantagens de utilizar nosso magnifico site</h3>
+
+    <ol TYPE = 1>
+        <li> Temos um arcenal recheado de artistas estrangeiros e nacionais
+        <li> Conheça um pouco da história do seu artista favorito
+        <li> Compartilhe a música que esta ouvindo e fale como se sente ao ouvi-las
+        <li> Comente nas músicas que esta ouvindo
+
+    </ol>
+
+    <h3> Tem interesse de ter uma cópia física dos albuns que escuta ??</h3>
+
+    <p> Confira nossa loja de CD´S player e Vinil </p>
+
+    <a href="file:///C:/Users/fabia/Documents/Senai/HTML/Atividade_casa/produtos.html" > <button class="btn">Confira agora !</button></a>
+
+    <h3> Formas de pagamento </h3>
+    <UL>
+        <li> PIX
+        <li> Cartão de crédito
+        <li> Cash Black
+    </UL>
+   
+    <H3>Contato</H3>
+
+     <a href="file:///C:/Users/fabia/Documents/Senai/HTML/Atividade_casa/contato.html" > <button class="btn">Fale com a gente</button></a>
+    <br>
+    
+    <h3>Conheça a ADM</h3>
+    <a href="https://www.instagram.com/a_cabrini_?utm_source=qr&igsh=M3lxZXRyaGpzdjRn">@a_cabrini</a>
+    
+    <br>
+
+    <h3>Relatos de alguns clientes</h3>
+
+    <p><i>"Eu ameii, entrega super rápida, os produtos chegaram muito bem embalados !"</i></p>
+
+    <p><i>"Achei os preços ótimos, ainda consegui um desconto da última compra"</i></p>
+
+    <p><i>"Sigam minha playlist 😊"</i></p>
+
+    <p><i>"A adm é incrível, merece muito uma recomendação de emprego ~ Anonimo kk"</i></p>
+
+    <footer>
+    <p>© 2025 Loja Virtual Inovadora, feita pela incrível Fá Fá ❤️.</p>
+    </footer>
+</body>
+</html>

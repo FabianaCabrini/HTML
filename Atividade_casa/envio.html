@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style> /*Pra deixar tudo bonitinho temos que usar o CSS e pra fazer essas modificações temos que mexer no style :)*/
+       
+       table, th, td{
+            border: 1px solid black;
+            border-collapse: collapse; /*O border serve pra fazer as linhas ao redor das palavras e o collapse é pra dar um espaço entre elas*/
+        }
+        
+        th,td{
+            padding: 5px 10px; /*Distanciar as palavras das linhas, uma medida é para cima ou baixo e a outra é pra esquerda ou direita*/
+        }
+       
+        th{
+            background-color: palevioletred;
+            color: white; /*color se refere a cor da fonte*/
+        }
+       
+        *{
+            font-family: Arial, Helvetica, sans-serif; /*Mudar a fonte*/
+        }
+       
+        table tr:nth-child(odd){
+            /*elementos impares*/
+            background-color: #ddd;
+        }
+
+        table tr:nth-child(even){
+             /*elementos pares*/
+             background-color: white;
+        }
+
+           body{
+            background: white;
+            margin: 0;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        .btn{
+            padding: 14px;
+            font-size: 10px;
+            color: purple;
+            background: white;
+            border-radius: 12x;
+            border: 2px solid purple;
+            cursor: pointer;
+            transition: 
+                background-color .2s ease,
+                color .2s ease,
+                border-radius .2s ease;
+        }
+
+        .btn:hover{
+            background: purple;
+            color: white;
+            border-radius: 20px;
+        }
+
+           footer{
+            background-color: palevioletred;
+            color: white;
+            text-align: center;
+            padding: 9px;
+            font-size: 16px;
+            width: 100%;
+        }
+
+          header{
+            background-color: palevioletred;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+
+
+    </style>
+</head>
+<body>
+
+    <header> Consulte as formas de envio 🛒</header>
+
+    <br>
+    
+    <table>
+        <tr>
+            <th>Transportadoras</th>
+            <th>Valores</th>
+            <th>Regiões</th>
+        </tr>
+       
+        <tr>
+            <td>Sedex </td>
+            <td>R$20,00</td>
+            <td>Atendimento para todas as regiões</td>
+        </tr>
+        
+        <tr>
+            <td>Correios</td>
+            <td>R$30,00</td>
+            <td>Atendimento para todas as regiões</td>
+        </tr>
+
+        <tr>
+            <td>PAC </td>
+            <td>R$15,00</td>
+            <td>Atendimento para todas as regiões</td>
+        </tr>
+    </table>
+<br>
+
+<a href="file:///C:/Users/fabia/Documents/Senai/HTML/Atividade_casa/index.html" > <button class="btn">voltar a página principal</button></a>
+
+ <br>
+
+ <footer>
+    <p>© 2025 Loja Virtual Inovadora, feita pela incrível Fá Fá ❤️.</p>
+</footer>
+    
+</body>
+</html>
