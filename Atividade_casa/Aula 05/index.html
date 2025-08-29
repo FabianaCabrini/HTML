@@ -10,11 +10,71 @@
     <h2>Formulários</h2>
     <h3>Exemplo 01</h3>
     <form action="mailto:fabianacabrini04@gmail.com" method="get" enctype="text/plain">
+    
+    <h4>Formulário 01</h4>
 
-    <input type="text" name="Nome" size="30">
+    Nome: <input type="text" name="Nome" size="30" id="idnome">
+    <br>
     <!-- Entrada de dados do tipo texto, nome se refere ao nome da infomação e size vai ser o tamanho do retangulo -->
-     
+    Sobrenome: <input type="text" name="Sobrenome" size="30" id="idsobrenome">
+    <br>
+    Idade: <input type="text" name="Idade" size="30" id="ididade">
+    <br>
+    Endereço<input type="text" name="Endereçp" size="30" id="idendereco">
+    <br>
 
+    <h4>Formulário 2</h4>
+
+     <table>
+        <tr>
+            <td>Nome</td>
+            <td><input type="text" name="Nome" size="30" id="idnome"></td>
+        </tr>
+        <tr>
+            <td>Sobrenome</td>
+             <td> <input type="text" name="Sobrenome" size="30" id="idsobrenome"></td>
+        </tr>
+        <tr>
+            <td>Nascimento</td>
+            <td><input type="date" name="Nascimento" size="30" id="ididade"></td>
+            <!-- Type date tras o calendário para selecionar a data -->
+        </tr>
+           <tr>
+            <td>Horário Nascimento</td>
+            <td><input type="time" name="Data Nascimento" size="30" id="idhorarionascimento"></td>
+            <!-- Type time pra colocar o horário -->
+        </tr>
+        <tr>
+            <td>Idade</td>
+            <td><input type="text" name="Idade" size="30" id="ididade">
+            </td>
+        </tr>
+        <tr>
+            <td>Endereço</td>
+            <td><input type="text" name="Endereçp" size="30" id="edenreco" maxlength="20"></td>
+            <!-- O max define a quantidade de caracteres que podem ser utilizados -->
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td><input type="email" name="Email" id="idemail" size="30"></td>
+            <!-- Tipo e-mail ajuda para fazer validação -->
+        </tr>
+        <tr>
+            <td>Login</td>
+            <td><input type="text" name="Login" id="idlogin" size="30"></td>
+        </tr>
+        <tr>
+            <td>Senha</td>
+            <td><input type="password" name="Senha" id="idsenha" size="30"></td>
+            <!-- Type passaword mascara a senha -->
+        </tr>
+        <tr>
+            <td>Cor preferida</td>
+            <td><input type="color" name="Cor" id="idcor" size="30"> </td>
+        </tr>
+
+      
+     </table>   
 
     </form>
 
