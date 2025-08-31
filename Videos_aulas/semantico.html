@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu site</title>
+    <style>
+        *{
+            /* Tirar as bordas */
+            box-sizing: border-box;
+        }
+        body{
+            margin: 0;
+        }
+        .topo{
+            /*Cor de fundo */
+            background-color: palevioletred;
+            /* Largura do bloco */
+            padding: 20px;
+            /* Alinhamento do bloco */
+            text-align: center;
+        }
+        .menu{
+            background: color #333; ;
+            overflow: hidden;
+        }
+        .menu a{
+            /* Aqui editamos tudo que estiver nos links de menu, como cor, distancia, linhas */
+            color: white;
+            padding: 14px 16px;
+            float: left;
+            display: block;
+            text-decoration: none;
+        }
+        .coluna-50{
+            float: left;
+            width: 50%;
+            padding: 15px;
+        }
+        .rodape{
+            background-color: palevioletred;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- Criamos uma classe para chamarmos lá em cima no style as configurações que serão mantidas na sua divisão escolhida -->
+    <header class="topo">
+        <h1>Topo</h1>
+        <p>Aqui a parte do topo</p>
+    </header>
+    <!-- Navegação -->
+    <nav class="menu">
+        <a href="index.html">Link</a>
+        <a href="citacoes.html">Link</a>
+        <a href="formatacao.html">Link</a>
+        <a href="Formularios.html">Link</a>
+    </nav>
+    <!-- sessão do seu site -->
+    <section class="coluna-50">
+        <h2>Coluna</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae dolor odit mollitia quis expedita sint quasi reiciendis fugit obcaecati repellendus. Eius dolorem soluta a! Quae ea in autem vero perferendis.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam assumenda illum reprehenderit voluptatem, ipsa nostrum ad quo vel corrupti laboriosam optio porro velit! Velit facere optio aut, molestias perspiciatis quidem!</p>
+
+    </section>
+
+    <section class="coluna-50">
+        <h2>Coluna</h2>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae dolor odit mollitia quis expedita sint quasi reiciendis fugit obcaecati repellendus. Eius dolorem soluta a! Quae ea in autem vero perferendis.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam assumenda illum reprehenderit voluptatem, ipsa nostrum ad quo vel corrupti laboriosam optio porro velit! Velit facere optio aut, molestias perspiciatis quidem!</p>
+    
+    </section>
+    <!-- Rodapé -->
+    <footer class="rodape">
+        <P>2025</P>
+    </footer>
+
+
+</body>
+</html>
