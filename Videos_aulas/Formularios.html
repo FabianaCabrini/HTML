@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu site</title>
+</head>
+<body>
+    <h1>Formulários</h1>
+    
+    <hr>
+
+    <form>
+
+        <label for="campo_nome">Nome:</label>
+        <!-- Informação da lateral do bloco -->
+        
+        <input id="campo_nome" type="text" placeholder="Digite seu nome aqui" required>
+        <!-- Placeholder - Informações que voce coloca no bloco -->
+        
+        <!-- Required, não permite que enviem o formulário com algum cmapo em branco -->
+        <br>
+        
+        <label for="campo_sobrenome">Sobrenome:</label>
+        <input id="campo_sobrenome" type="text" placeholder="Digite seu sobrenome" required>
+
+        <br>
+
+        <label for="campo_senha">Senha:</label>
+        <input id="campo_senha" type="password" placeholder="Ensira sua senha" required>
+        <!-- Type password para senha -->
+        
+        <br>
+
+        <label for="campo_email">Email:</label>
+        <input id="campo_email" type="email" placeholder="Insira seu e-mail" required>
+        
+        <br><br>
+
+        <h2>Animal de estimação</h2>
+        
+        <input type="radio" id="dog" name="animal" value="dog">
+        <label for="dog">Cachorro</label>
+        <!-- O campo radio é uma unica escolha, apenas uma opção -->
+
+        <br><br>
+
+        <input type="radio" id="cat" name="animal" value="Gato">
+        <label for="cat">Gato</label>
+
+        <br><br>
+
+        <input type="radio" id="rato" name="animal" value="Rato">
+        <label for="rato">Rato</label>
+
+        <br><br>
+
+        <input type="submit" value="Enviar formulário">
+        <!-- Type submite, cria um botão para envio de formulário. No value você insere o conteúdo escrito do botão -->
+
+
+    </form>
+
+</body>
+</html>
